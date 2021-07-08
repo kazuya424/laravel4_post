@@ -38,3 +38,4 @@ Route::prefix('users')->group(function () {
     Route::get('/{user}/edit', 'UsersController@edit')->name('users.edit');
     Route::put('/{user}', 'UsersController@update')->name('users.update');
 });
+
